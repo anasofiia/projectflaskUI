@@ -1,5 +1,5 @@
 # Google Play Store Analytics
-<img src="https://github.com/anasofiia/projectflaskUI/blob/20a2dbfb229b243da192dd4602b51e712e59460d/Project-UI-Ana-1.png">
+<img src="https://github.com/anasofiia/projectflaskUI/blob/9692785810ebb01b13029444a1cec667a17b62e9/Capstone%20Project%20Ana-1.png">
 ## Introduction
 Projek ini dikembangkan sebagai salah satu capstone project dari Algoritma Academy Data Analytics Specialization. Deliverables yang diharapkan adalah Anda dapat membangun sebuah aplikasi web sederhana (dashboard) menggunakan framework Flask. Capstone ini akan fokus pada tampilan user interface Flask. 
 
