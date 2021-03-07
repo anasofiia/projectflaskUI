@@ -118,14 +118,13 @@ def index():
     Prices= playstore.groupby('Category').mean().sort_values(by='Price', ascending= False)
     Prices.head(20)
 
-    top5_prices = Prices.iloc[0:10, [4]]
-    top5_prices.plot.barh(figsize=(20,15), facecolor = "green", width= 0.8)
-    plt.title("Highest Mean Prices by Category", weight='bold', size = 38)
-    plt.xlabel("Price", labelpad=20, weight='bold', size=30)
-    plt.ylabel("Category", fontsize=20, labelpad=20, weight='bold', size=30)
+    top5_prices = Prices.iloc[0:5, [4]]
+    top5_prices.plot.barh(figsize=(8, 6), facecolor = "green", width= 0.8)
+    plt.title("Highest Mean Prices by Category", size = 20)
+    plt.xlabel("Price")
+    plt.ylabel("Category")
     
-    
-
+ 
     figfile = BytesIO()
     plt.savefig(figfile, format='png')
     figfile.seek(0)
